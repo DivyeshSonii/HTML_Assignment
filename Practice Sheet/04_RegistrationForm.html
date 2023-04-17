@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    <style>
+        section {
+            background-color: rgb(246, 184, 251);
+            height: 500px;
+            width: 1000px;
+        }
+
+        fieldset {
+            height: 450px;
+            width: 900px;
+        }
+
+        legend {
+            text-align: center;
+        }
+
+        form {
+            margin-top: -320px;
+        }
+
+        .labels {
+            text-align: right;
+        }
+
+        .registerbtn {
+            height: 30px;
+            width: 100px;
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <section>
+            <fieldset>
+                <legend>
+                    <h1>Registration Details</h1>
+                </legend>
+                <form action="#" method="post">
+                    <table cellpadding="10px">
+                        <tr>
+                            <td class="labels">University :</td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                        <br><br><br>
+
+                        <tr>
+                            <td class="labels">Institute :</td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                        <br><br><br>
+
+                        <tr>
+                            <td class="labels">Branch :</td>
+                            <td>
+                                <select name="">
+                                    <option value="">---select---</option>
+                                    <option value="">Vadodara</option>
+                                    <option value="">Surat</option>
+                                    <option value="">Ahmedabad</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <br><br><br>
+
+                        <tr>
+                            <td class="labels">Degree :</td>
+                            <td>
+                                <select name="">
+                                    <option value="">---select---</option>
+                                    <option value="">B.Tech</option>
+                                    <option value="">M.Tech</option>
+                                    <option value="">B.Com</option>
+                                </select>
+
+                                <input type="radio" name="a1">
+                                <label for="pursuing">Pursuing</label>
+                                <input type="radio" name="a1">
+                                <label for="completed">Completed</label>
+                            </td>
+                        </tr>
+
+                        <br><br><br>
+
+                        <tr>
+                            <td class="labels">Average CPI :</td>
+                            <td><input type="text"> Upto <input type="text"><span> Th Semester</span></td>
+                        </tr>
+
+                        <br><br><br>
+
+                        <tr>
+                            <td class="labels">Experiance :</td>
+                            <td><input type="text"> Years</td>
+                        </tr>
+
+                        <br><br><br>
+
+                        <tr>
+                            <td class="labels">Your Websute Or Blog :</td>
+                            <td><input type="url" placeholder="https://www.google.com"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <center>
+                                    <button class="registerbtn" type="submit">Register</button>
+                                </center>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset>
+        </section>
+    </center>
+</body>
+
+</html>
